@@ -1,21 +1,21 @@
-﻿Console.WriteLine("Hello, \n World!");
+﻿using System;
 
-Console.Write("lucas\n");
+Console.WriteLine("Hello, World!");
+Console.WriteLine("lucas\n");
+Console.WriteLine("santana \n");
 
-Console.Write("fernandes");
+string nomeCompleto = "lucas fernandes santana";
+string primeiroNome = "lucas";
+string ultimoNome = "santana";
+string nomeMeio = "fernandes santana";
 
-string firstName = "lucas";
-
-string lastName = "fernandes";
-
-string surname = "santana";
-
-Console.WriteLine("meu nome completo é "+ firstName +" "+" "+ surname + lastName); 
+Console.WriteLine("Meu nome é " + primeiroNome + nomeMeio + ultimoNome);
 
 int idade = 19;
 
-Console.WriteLine($"Meu nome completo e 0{firstName} [surname) {lastName) e a minha idade é [idade}");
- 
-Console.WriteLine(
-string nome = Console.ReadLine());
-Console.WriteLine($' ola {nom
+Console.WriteLine($"Meu nome é   {primeiroNome}  {nomeMeio} {ultimoNome} e minha idade é {idade}");
+Console.WriteLine("Escreva o seu Nome  ");
+
+string nome = Console.ReadLine();
+
+Console.WriteLine($"Ola {nome}, Boa noite !");
